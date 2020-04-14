@@ -1,0 +1,18 @@
+*.retry
+.idea/
+.venv/
+*.egg-info/
+dist/
+/venv/
+/.vscode/
+
+# Crash log files
+crash.log
+
+config/config.ini
+__pycache__
+
+.pytest_cache/
+logs/
+coverage_html_report/
+*.log

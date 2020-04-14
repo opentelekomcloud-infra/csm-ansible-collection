@@ -1,0 +1,19 @@
+---
+authors:
+  - anton-sidelnikov (https://github.com/anton-sidelnikov)
+dependencies: {}
+description: CSM Collection for Ansible.
+documentation: ''
+homepage: ''
+issues: https://github.com/opentelekomcloud-infra/csm-ansible-collection/issues
+license_file: LICENSE
+name: csm
+namespace: opentelekomcloud-infra
+readme: README.md
+repository: https://github.com/opentelekomcloud-infra/csm-ansible-collection
+tags:
+  - build_infrastructure
+  - iscsi
+  - telegraf
+  - too_simple_server
+version: 0.1.0
