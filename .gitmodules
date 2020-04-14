@@ -1,4 +1,4 @@
-[submodule "csm-ansible-roles"]
+[submodule "roles"]
 	path = roles
 	url = https://github.com/opentelekomcloud-infra/csm-ansible-roles.git
 	branch = master
