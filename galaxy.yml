@@ -1,0 +1,25 @@
+---
+namespace: opentelekomcloud
+name: customer_service_monitoring
+version: 0.1.0
+readme: README.md
+license_file: LICENSE
+authors:
+  - Anton Kachurin <anton.kachurin@t-systems.com>
+  - Polina Gubina <polina.gubina@t-systems.com>
+  - Rodion Gyrbu <rodion.gyrbu@t-systems.com>
+  - Anton Sidelnikov <a.sidelnikov@t-systems.com>
+repository: https://github.com/opentelekomcloud-infra/csm-ansible-roles
+issues: https://github.com/opentelekomcloud-infra/csm-ansible-roles/issues
+build_ignore:
+  - "*/molecule"
+  - "*/test"
+  - "*/.terraform"
+  - .yamllint
+  - .idea
+  - .travis.yml
+  - .editorconfig
+  - .github
+  - ".zuul.d"
+  - "scripts"
+  - "*.tgz"

@@ -1,0 +1,11 @@
+---
+- project:
+    merge-mode: squash-merge
+    templates:
+      - publish-to-pypi
+    check:
+      jobs:
+        - tox-molecule
+    gate:
+      jobs:
+        - tox-molecule
