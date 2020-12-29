@@ -16,13 +16,11 @@
     check:
       jobs:
         - ansible-collection-build
-        - ansible-collection-test-sanity
         - tox-molecule-29
         - tox-molecule-210
     gate:
       jobs:
         - ansible-collection-build
-        - ansible-collection-test-sanity
         - tox-molecule-29
         - tox-molecule-210
     tag:
