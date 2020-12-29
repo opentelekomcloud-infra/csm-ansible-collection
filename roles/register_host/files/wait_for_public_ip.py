@@ -6,9 +6,9 @@ import sys
 
 def main():
     """Try to connect to """
-    print("Arguments provided: ", sys.argv)
+    print('Arguments provided: ', sys.argv)
     if len(sys.argv) == 1:
-        raise AttributeError("No positional arguments given to wait script")
+        raise AttributeError('No positional arguments given to wait script')
     address = sys.argv[1]
     timeout_seconds = 120
     if len(sys.argv) > 2 and sys.argv[2].isdigit():
