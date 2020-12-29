@@ -15,11 +15,11 @@ build_ignore:
   - "*/molecule"
   - "*/test"
   - "*/.terraform"
-  - .yamllint
-  - .idea
-  - .travis.yml
-  - .editorconfig
-  - .github
+  - "*/.yamllint"
+  - "*/.idea"
+  - "*/.travis.yml"
+  - "*/.editorconfig"
+  - "*/.github"
   - ".zuul.d"
   - "scripts"
   - "*.tgz"

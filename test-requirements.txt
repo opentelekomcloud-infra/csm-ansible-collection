@@ -1,6 +1,5 @@
 molecule[docker]
 
-ansible
 flake8
 flake8-import-order
 yamllint
