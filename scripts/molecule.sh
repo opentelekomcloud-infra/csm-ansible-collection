@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 echo "Starting molecule test"
 
 project_root=$(realpath "$(dirname "$0")")
