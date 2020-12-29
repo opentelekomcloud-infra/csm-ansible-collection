@@ -2,7 +2,7 @@
 - project:
     merge-mode: squash-merge
     templates:
-      - publish-to-pypi
+      - ansible-collection
     check:
       jobs:
         - tox-molecule
