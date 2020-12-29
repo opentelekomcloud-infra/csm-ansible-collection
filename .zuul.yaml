@@ -1,0 +1,28 @@
+---
+- job:
+    name: tox-molecule-29
+    parent: tox-molecule
+    vars:
+      tox_envlist: molecule-ansible29
+
+- job:
+    name: tox-molecule-210
+    parent: tox-molecule
+    vars:
+      tox_envlist: molecule-ansible210
+
+- project:
+    merge-mode: squash-merge
+    check:
+      jobs:
+        - ansible-collection-build
+        - tox-molecule-29
+        - tox-molecule-210
+    gate:
+      jobs:
+        - ansible-collection-build
+        - tox-molecule-29
+        - tox-molecule-210
+    tag:
+      jobs:
+        - ansible-collection-publish

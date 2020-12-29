@@ -1,0 +1,6 @@
+molecule[docker]
+
+flake8
+flake8-import-order
+yamllint
+ansible-lint

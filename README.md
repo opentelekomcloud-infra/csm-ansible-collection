@@ -1,2 +1,2 @@
 # csm-ansible-collection
-collection of csm ansible roles
+Collection of CSM ansible roles
