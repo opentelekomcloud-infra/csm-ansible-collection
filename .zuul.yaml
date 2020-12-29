@@ -25,3 +25,6 @@
         - ansible-collection-test-sanity
         - tox-molecule-29
         - tox-molecule-210
+    tag:
+      jobs:
+        - ansible-collection-publish
