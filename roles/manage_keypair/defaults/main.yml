@@ -1,0 +1,4 @@
+---
+# defaults file for manage_keypair
+
+pip3_executable: pip3
